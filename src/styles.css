@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    /* background: rgb(246, 246, 246);
+background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(0, 0, 0) 100%); */
+background: radial-gradient(circle, rgba(20,61,91,1) 0%, rgba(5,16,24,1) 100%, rgba(0,0,0,1) 100%);
+
+}
+
+#c
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #69f374 0%,
+    #00ffe1 29%,
+    #007bff 67%,
+    #0026ff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+
+
+#head{
+    /* background: rgb(20,61,91); */
+background: radial-gradient(circle, rgba(20,61,91,1) 0%, rgba(5,16,24,1) 100%, rgba(0,0,0,1) 100%);
+}
+
+.hov:hover{
+  transform: scale(1.1);
+
+}
+footer{
+  background: radial-gradient(circle, rgba(20,61,91,1) 0%, rgba(5,16,24,1) 100%, rgba(0,0,0,1) 100%);
+
+}
+.navbar-brand:hover{
+  transform: scale(1.1);
+}

@@ -1,0 +1,14 @@
+<div class="p-5 container  text-center col-lg-6 col-md-12 col-sm-12">
+    <h1 class="text-light">Add New Blog</h1>
+    <form (ngSubmit)="addBlog()" [formGroup]="addBlogForm" action="" class="bg-light container p-5" style="border-radius: 20px;">
+        <input formControlName="id"  type="text" class="form-control mt-3 p-2" placeholder="Blog id" name="pin1" id="pid11">
+        <input formControlName="title" type="text" class="form-control mt-3 p-2" placeholder="Blog title" name="pin2" id="pid10">
+        <input formControlName="name" type="text" class="form-control mt-3 p-2" placeholder="Writer's name" name="pin3" id="pid9">
+        <input formControlName="date" type="text" class="form-control mt-3 p-2" placeholder="Date" name="pin3" id="pid9">
+        <input formControlName="about" type="text" class="form-control mt-3 p-2" placeholder="About" name="pin3" id="pid9">
+        <input formControlName="description" type="text" class="form-control mt-3 p-2 h-25" placeholder="Description" name="pin4" id="pid8">
+        <input formControlName="image" type="text" class="form-control mt-3 p-2" placeholder="Image" name="pin5" id="pid7">
+        
+        <button type="submit" class="btn btn-success p-2 mt-3 w-50 "><strong>Add <i class="fa-regular fa-plus"></i></strong></button>
+    </form>
+</div>

@@ -1,0 +1,31 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4 col-lg-12 text-center">
+                    <!-- Post title-->
+                    <hr class="text-white"><h1 class="fw-bolder mb-1 text-white" >{{blogData.title}}</h1><hr class="text-white">
+                    <!-- Post meta content-->
+                    <div class="fw-lighter fst-italic mb-2 badge text-light fs-6">Posted on {{blogData.date}} by {{blogData.name}}</div>
+                </header>
+                <!-- Preview image figure-->
+                <figure class="mb-4 text-center"><img class="img-fluid rounded "  src="{{blogData.image}}" alt="..." /></figure>
+                <!-- Post content-->
+                <section class="mb-5">
+                    <p class="fs-5 mb-4 des"> <strong>{{blogData.description}}</strong></p>
+                </section>
+            </article>
+
+
+            <div>
+
+                <div style="float: left;"  class="text-center mb-4 w-50"><a style="text-decoration: none; " class="text-secondary" href="update_blog/{{blogData.id}}"><button type="button" class="btn btn-outline-info"><strong>Update this Blog <i class="fa-solid fa-pen-to-square"></i></strong></button></a></div>
+
+
+                <div style="float: left;" class="text-center mb-4 w-50"><a style="text-decoration: none; " class="text-secondary" href="delete_blog/{{blogData.id}}"><button type="button" class="btn btn-outline-danger"><strong>Delete this Blog<i class="fa-solid fa-trash-can"></i></strong></button></a></div>
+
+
+
+            </div>
